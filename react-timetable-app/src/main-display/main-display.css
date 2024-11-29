@@ -1,0 +1,179 @@
+.main-display-container{
+  background-color: rgb(233, 233, 233);
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 89vh;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 4em;
+  align-items: center;
+  
+}
+
+.container1{
+  padding: 1em 0.6em 1em 0.9em;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(rgb(21, 120, 250), rgb(21, 120, 250),rgb(5, 178, 252));
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-area-con-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 3.5em;
+}
+
+.container1 i{
+  font-size: 25px;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 1em 0.5em 1em;
+  font-size: 9px;
+  background-color: white;
+  padding: 0.6em 1em;
+}
+
+.blue-color{
+  color: rgb(0, 162, 216);
+}
+
+.total{
+  color:  rgb(83, 83, 83);
+  font-weight: bolder;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8em;
+}
+
+.right{
+  display: flex;
+  justify-content: space-between;
+  width: 20em;
+}
+
+.color-button{
+  background: linear-gradient(rgb(21, 120, 250), rgb(21, 120, 250),rgb(5, 178, 252));
+  color: white;
+}
+
+.right button{
+  font-size: 9px;
+  padding: 0.3em 1em;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.grey{
+  color: rgb(56, 56, 56);
+}
+
+.main-content-display{
+  background-color: white;
+  color: black;
+  margin: 0 1em;
+  height: 200px;
+  overflow: auto; 
+  scrollbar-width: none; 
+}
+
+.lists-of-items{
+  display: grid;
+  grid-template-columns: 2em 8em 3em 18em 5em 4em 5em 6em 6em;
+  border-top: 1px solid grey;
+  padding: 0.4em;
+  font-size: 9px;
+  column-gap: 1em;
+  text-align: start;
+  align-items: center;
+  color: rgb(66, 66, 66);
+}
+
+.main-content-display li{
+  text-align: center;
+}
+
+.lists-of-items li{
+  list-style: none;
+}
+
+.lists-of-items-title{
+  display: grid;
+  grid-template-columns:  2em 8em 3em 18em 5em 4em 5em 12em;
+  font-size: 9px;
+  column-gap: 1em;
+  padding: 0.4em;
+  text-align: start;
+  align-items: center;
+  color: rgb(71, 71, 71);
+  font-weight: bolder;
+}
+
+.lists-of-items-title li{
+  list-style: none;
+}
+
+.lists-of-items button{
+  border: none;
+  font-size: 9px;
+  color: white;
+  padding: 0.4em 0.3em;
+  border-radius: 2px;
+  font-weight: bolder;
+  width: 5em;
+}
+
+.deletebtn{
+  background-color: red;
+}
+
+.editBtn{
+  background: rgb(82, 82, 255)
+}
+
+
+.altEntry{
+  font-size: 30px;
+  color: rgb(68, 68, 68);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.little-grid{
+ display: flex;
+}
+
+.action-buttons{
+  display: flex;
+}

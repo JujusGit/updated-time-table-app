@@ -1,0 +1,81 @@
+.sidebar-container{
+  background-color: rgb(8, 5, 10);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.color-side{
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(rgb(21, 120, 250), rgb(21, 120, 250),rgb(5, 178, 252));
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+  height: 11vh;
+}
+
+.sidebar-container li{
+  padding: 0.5em 1em;
+  font-size: 9px;
+  display: flex;
+  justify-content: start;
+  height: 3em;
+  align-items: center;
+ 
+}
+
+.sidebar-container li:hover{
+  background-color: rgb(37, 35, 39);
+  border-left: 3px solid red;
+  cursor: pointer;
+}
+.sidebar-container i{
+  margin-right: 0.5em;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.sidebar-container ul{
+  background-color: rgb(24, 21, 26);
+  height: 120%;
+  padding-top: 0.5em;
+}
+
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  height: 7em;
+  padding-left: 1em;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.red{
+ background-color: rgb(255, 17, 0);
+  height: 0.17em;
+  width: 4em;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.visit{
+  color: rgb(255, 17, 0);
+}

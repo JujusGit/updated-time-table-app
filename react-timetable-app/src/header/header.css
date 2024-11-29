@@ -1,0 +1,71 @@
+.header-container{
+  display: grid;
+  height: 11vh;
+  width: calc(100vw - 10em);
+}
+
+.logoName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest{
+  font-size: 10px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1em;
+}
+
+.button-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 16em;
+}
+
+.button-section button{
+  font-size: 8px;
+  font-weight: bolder;
+  border: none;
+  padding: 0.7em 2em;
+  color: rgb(83, 83, 83);
+  border-radius: 2px;
+  background-color: rgb(192, 192, 192);
+}
+
+.button-section .adminBtn{
+  background: linear-gradient(rgb(21, 120, 250), rgb(21, 120, 250),rgb(5, 178, 252));
+  color: white;
+}
+
+.logoutbtn{
+  font-size: 8px;
+  font-weight: bolder;
+  border: none;
+  padding: 0.7em 2em;
+  border-radius: 3px;
+  background-color:rgb(224, 0, 0);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoutbtn i{
+  font-size: larger;
+}
+
+.logout-section{
+  display: flex;
+  width: 6em;
+  justify-content: space-between;
+}
+
+.userimage{
+  width: 1.2em;
+}
