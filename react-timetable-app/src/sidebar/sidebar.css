@@ -23,6 +23,17 @@
   height: 11vh;
 }
 
+.logoName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest{
+  font-size: 10px;
+}
+
+
 .sidebar-container li{
   padding: 0.5em 1em;
   font-size: 9px;

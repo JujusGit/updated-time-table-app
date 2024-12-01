@@ -14,7 +14,7 @@ function Header(){
         </div>
 
         <div className="logout-section">
-          <button className="logoutbtn"> <i class='bx bx-log-out-circle' ></i> Logout</button>
+          <button className="logoutbtn"> <i className='bx bx-log-out-circle' ></i> Logout</button>
           <img className="userimage" src="../../public/images/user.png" alt="" />
         </div>
 

@@ -17,10 +17,10 @@ function Display() {
     setTables(updatedTables);
     localStorage.setItem('timetable', JSON.stringify(updatedTables));
   }
- 
 
   return(
     <div className="main-display-container">
+
       <div className="cards">
         <div className="container1">
           <div className="text-area-con-1">
@@ -54,15 +54,18 @@ function Display() {
           </div>
         </a>
 
+        <a href="Updateuser.html">
         <div className="container1">
-          <div className="text-area-con-1">
-            <p>Total data entries</p>
-            <p>600/670</p>
-          </div>
-          <div className="logo-area">
-            <i className="bx bxs-data"></i>
-          </div>
+            <div className="text-area-con-1">
+              <p>Total data entries</p>
+              <p>600/670</p>
+            </div>
+            <div className="logo-area">
+              <i className="bx bxs-data"></i>
+            </div>
         </div>
+        </a>
+      
       </div>
 
       <div className="main-content">
@@ -89,7 +92,7 @@ function Display() {
               <li>Date</li>
               <li>Venue</li>
               <li>Time</li>
-              <li>Custom</li>
+              <li>Remove</li>
             </ul>
 
           {tables && tables.length > 0 ? (
@@ -107,9 +110,6 @@ function Display() {
                 <li>
                   <button className="deletebtn" onClick={() => deleteItem(item.courseId)}>Delete</button>
                 </li>
-               <li>
-                <button className="editBtn">Edit</button>
-               </li>
               </ul>
             </div>
               
@@ -123,6 +123,7 @@ function Display() {
           )}
         </div>
       </div>
+
     </div>
   );
 }

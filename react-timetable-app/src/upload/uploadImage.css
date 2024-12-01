@@ -1,0 +1,366 @@
+.big-upload-container{
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 95%;
+  height: 90%;
+  background-color: white;
+  border: 1px solid grey;
+  position: relative;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+  height: 15%;
+  border-bottom: 1px solid grey;
+}
+
+.left{
+  font-weight: bolder;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.image-file-container{
+  height: 80%;
+  border: 1px dashed rgb(131, 131, 131);
+  border-radius: 7px;
+  background-color:  rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttom-left, .buttom-right{
+width: 45%;
+height: 100%;
+margin-top: 2em;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.center-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.bx-cloud-upload{
+  font-size: 40px;
+  font-weight: 200;
+  color: rgb(169, 169, 169);
+  margin-bottom: 0.1em;
+}
+
+.blue-icon{
+  color:rgb(0, 166, 255);
+  text-decoration: underline;
+}
+
+.long-text{
+width: 11em;
+}
+
+.buttom-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  padding: 0.5em 0 0.5em 1em;
+  font-size: 12px;
+}
+
+.right-top{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 10px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 2em;
+}
+
+.input-section div{
+  width: 100%;
+  font-size: 9px;
+}
+
+.input-section{
+  margin-bottom: 1.5em;
+}
+
+.email-input{
+  width: 17em;
+}
+
+.name-pnoneNumber{
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.name-pnoneNumber div{
+ width: 5em;
+}
+
+.name-pnoneNumber div input{
+  width: 8em;
+ }
+
+ .name-pnoneNumber div p{
+  width: 8em;
+ }
+
+ .agreement-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.5em;
+ }
+
+ .agreement-section p{
+  width: 100%;
+  font-size: 8px;
+  margin-bottom: 3px;
+ }
+
+ .agreement-section div{
+  display: flex;
+  align-items: center;
+  width: 100%;
+ 
+ }
+
+ .checkbox-div p{
+  margin-left: 0.5em;
+  font-size: 8px;
+ }
+
+ .button-sect{
+  width: 100%;
+ }
+
+ .button-sect p{
+  width: 100%;
+  font-size: 8px;
+  color: grey;
+  font-weight: 500;
+ }
+
+ .buttons{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 0.5em;
+  width: 100%;
+ }
+
+ .buttons button{
+  font-size: 9px;
+  padding: 0.5em 2em;
+  border: none;
+  font-weight: 600;
+  margin-right: 3px;
+ }
+
+ .gg{
+  font-weight: bolder;
+ }
+
+.ap{
+  font-size: 10px;
+  color: grey;
+  width: 6em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.makeblue{
+  color: black;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(0, 166, 255);
+}
+
+.ap:hover{
+  color: black;
+  cursor: pointer;
+  border-bottom: 3px solid rgb(0, 166, 255);
+}
+
+.profilesect-top{
+  width: 100%;
+  background: linear-gradient(rgb(21, 120, 250), rgb(21, 120, 250),rgb(5, 178, 252));
+  height: 30%;
+}
+
+.profilesect-bottom{
+  width: 93%;
+  height: 85%;
+  position: absolute;
+  top: 3em;
+  left: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.profilesect-left, .profilesect-right{
+  background-color: white;
+  border: 1px solid rgb(135, 135, 135);
+  height: 90%;
+}
+
+.profilesect-left{
+  width: 9.5em;
+}
+
+.profilesect-right{
+  width: 22em;
+}
+.profilesect-top-image-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  margin-bottom: 1.5em;
+}
+
+.profilesect-profile-image{
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  margin-top: 2em;
+}
+
+.position-relative{
+  position: relative;
+  width: fit-content;
+}
+
+.position-relative-button{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 4px;
+right: 0px;
+border: 2px solid white;
+background-color: blue;
+color: white;
+font-size: 10px;
+padding: 2px;
+border-radius: 50%;
+}
+
+.entries{
+  padding: 1em 2em;
+  font-size: 8px;
+  width: 100%;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bolder;
+  color: rgb(61, 61, 61);
+}
+
+.last{
+  border-bottom: 1px solid rgb(65, 65, 65);
+}
+
+.profilesect-right-top{
+  display: flex;
+  padding: 1em 1em;
+  font-size: 10px;
+  border-bottom: 1px solid rgb(136, 136, 136);
+  height: 3em;
+  width: 100%;
+}
+
+.profilesect-right-top p{
+  margin-right: 12px;
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: bolder;
+  color: rgb(112, 112, 112);
+  height: 2.2em;
+  width: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilesect-right-top p:hover{
+  border-bottom: 3px solid rgb(0, 166, 255);
+}
+
+.blue-hover{
+  border-bottom: 3px solid rgb(0, 166, 255);
+}
+
+.profilesect-right-bottom{
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2em 0.2em;
+}
+
+.profilesect-right-bottom-right, .profilesect-right-bottom-left{
+  width: 48%;
+  height: 100%;
+  font-size: 8px;
+  padding: 1em 0 1em 1em;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  color: rgb(57, 57, 57);
+  justify-content: space-between;
+}
+
+.text-area{
+  width: 95%;
+  height: 3em;
+  border: 1px solid rgb(160, 160, 160);
+  cursor: pointer;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  font-size: 7px;
+}
+
+.text-area:hover{
+  border: 2px solid rgb(0, 103, 205);
+  color: black;
+}

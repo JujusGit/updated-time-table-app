@@ -4,16 +4,6 @@
   width: calc(100vw - 10em);
 }
 
-.logoName{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rest{
-  font-size: 10px;
-}
-
 .content{
   display: flex;
   align-items: center;
@@ -35,7 +25,8 @@
   padding: 0.7em 2em;
   color: rgb(83, 83, 83);
   border-radius: 2px;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(227, 227, 227);
+  cursor: pointer;
 }
 
 .button-section .adminBtn{
@@ -54,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .logoutbtn i{

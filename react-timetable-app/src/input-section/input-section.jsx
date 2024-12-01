@@ -346,7 +346,7 @@ const [showWarning, setShowWarning] = useState(false);
 
     </div>
     </div>
-    );
+  );
 }
 
 export default InputSection;
